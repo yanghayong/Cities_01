@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 * {
@@ -104,4 +105,22 @@ body {
     font-size: 14px;
     color: #666;
     border-top: 1px solid #ddd;
+}
+
+/* 서브페이지 */
+.container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.text_box {
+    padding: 20px 0;
+}
+
+.text_box p {
+    margin-bottom: 20px;
 }
