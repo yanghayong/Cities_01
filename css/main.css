@@ -55,11 +55,44 @@ body {
 
 .item {
     display: flex;
+    margin-bottom: 20px;
 }
 
-.item .photo{}
+.item .photo {
+    margin-right: 50px;
+    width: 300px;
+    height: 210px;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
 
-.item .text {}
+.item .photo .img {
+    border-radius: 10px;
+}
+
+.item .photo_01 {
+    background-image: url("../images/london.jpg");
+}
+
+.item .photo_02 {
+    background-image: url("../images/paris.jpg");
+}
+
+.item .photo_03 {
+    background-image: url("../images/tokyo.jpg");
+}
+
+.item .text {
+    width: 610px;
+}
+
+.item .text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
 .bottom {
     padding: 50px;
